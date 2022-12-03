@@ -1,0 +1,1877 @@
+:root {
+  font-size: 16px;
+  --font:'Poppins', sans-serif;
+  --font2: 'Oswald', sans-serif;
+  --comenig-color: #4A4AFF;
+  --yellow: #FFBB00;
+  --color: #1664D2;
+  --color2: #FFB51B;
+  --color3: #FCFCFE;
+  --color4: #ADC5FF;
+  --color5: #7A7D86;
+  --black: rgba(0, 0, 0, 0.815)
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.color-html {
+  background-color: #F0F0F0;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! this is landing page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+/* this is header */
+header {
+  background-color: var(--color);
+  width: 100%;
+  height: 65vh;
+  font-family: var(--font);
+  position: relative;
+}
+
+.hideinfo {
+  overflow: hidden;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.navbar-toggler-icon i {
+  color: var(--color3);
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: var(--color3);
+}
+
+.nav-link:hover {
+  color: var(--color3)
+}
+
+.nav-link:focus {
+  color: var(--color3);
+}
+/* end nav bar */
+
+/* start header content */
+
+.header-info {
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transform: translatey(12%);
+}
+
+.header-text {
+  transform: translatey(20%);
+}
+
+.header-text p {
+  text-align: center;
+  color: var(--color3);
+  line-height: 30px;
+  font-size: 1.2rem;
+  margin-top: 5rem;
+}
+
+.header-text button {
+  color: var(--color3);
+  background-color: var(--color2);
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.header-text button:hover,
+.bottom-sub button:hover,
+.register-btttn:hover,
+.add-fav:hover ,
+.submitt-stores:hover {
+    color: var(--color3);
+    animation: shakeit 1s infinite alternate ease;
+
+}
+
+@keyframes shakeit {
+  0% {
+      transform: rotate(7deg);
+      background-color: var(--color3);
+      color: var(--color2)
+  }
+  100% {
+      transform: rotate(-7deg);
+      background-color: var(--color2);
+  }
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.header-image img {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* start section 1 */
+
+
+.par-adress {
+  font-size: 6rem !important;
+  color: rgba(128, 128, 128, 0.153) !important;
+}
+
+.par-adress2{
+  top: 2rem !important
+}
+
+.owl-carousel {
+  margin-top: 5rem;
+}
+
+.owl-carousel .div-img  {
+width: 200px;
+height: 200px;
+margin: auto;
+}
+
+.owl-carousel div img {
+ border-radius: 50%;
+ height: 100%;
+}
+
+.owl-nav {
+  text-align: center;
+}
+
+.owl-nav button {
+  margin: 1rem;
+}
+
+/* end section 1 */
+
+/* start section 2 */
+
+.over {
+  overflow: hidden;
+}
+
+.make-padding {
+  padding-left: 8rem;
+}
+
+.landing-aboutt {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+.h-style {
+  line-height: 0;
+  text-transform: capitalize;
+  margin-bottom: 1.3rem
+}
+
+.line-blue {
+  width: 100px;
+  height: 2px;
+  background-color: var(--comenig-color);
+}
+
+.p-style {
+  font-size: 1rem;
+  color: var(--color5);
+  width: 70%;
+  text-align: justify;
+  margin: 1rem 0 3rem 0;
+}
+
+.p-style2 {
+  color: var(--color5);
+  width: 90%;
+  font-size: 0.9rem;
+}
+
+.bg-color {
+ background-image: url('../img/Group\ 19.png');
+ height: 100%;
+ background-position: right;
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+
+/* end section  2*/
+/* start section  3*/
+
+.bg-why-color {
+  background-color: var(--color3);
+  border-radius: 70px;
+  padding: 2rem 0 0 0;
+  margin: 3rem 0;
+}
+
+.section-font {
+  font-family: var(--font);
+}
+
+.title {
+  text-align: center;
+  color: var(--color);
+  position: relative;
+  width: 20%;
+  margin: auto;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  text-transform: capitalize
+}
+
+.box {
+  text-align: center;
+  width: 80%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.box h4 {
+  color: var(--color4);
+  font-family: var(--font2);
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: bold;
+
+}
+
+.box p {
+  font-size: 0.8rem;
+}
+
+/* end section  3*/
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! this is comming soon page !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/* this is header */
+
+.header-bg {
+  background-color: var(--comenig-color) !important;
+  height: 90vh;
+}
+
+/* this is nav */
+
+.nav-line {
+  border-bottom: 3px solid var(--color2);
+}
+
+.nav-link2 {
+  color: var(--color5);
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.nav-home {
+  color: var(--color2)
+}
+
+.nav-link2:hover {
+  color: var(--color2)
+}
+
+.nav-link2:focus {
+  color: var(--color2);
+}
+
+.last-li-img {
+  border:1px solid #B7BFFD;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 2rem;
+}
+
+.last-li-img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* end nav */
+/* this is header content info*/
+
+.info2 h2 {
+  color: var(--color3);
+  margin: 2rem 0 1.5rem 0;
+  text-transform: uppercase;
+}
+
+.bg1 {
+   border: 2px solid var(--color);
+   background-color: var(--color3);
+   width: 50px;
+   height: 100px;
+   margin-right: 8px;
+}
+
+.bg2{
+  border-bottom: 1px solid var(--color);
+  height: 44px;
+  margin-bottom: 1.5px;
+}
+
+.bg3{
+  border-top: 1px solid var(--color);
+  height: 44px;
+}
+
+.layer-dott {
+  color: #fff;
+  width: 50px;
+  height: 100px;
+  font-size: 4rem;
+}
+
+.timer {
+  position: relative;
+}
+
+.timelayer {
+ width: 50px;
+ height: 100px;
+ text-align: center;
+ font-size: 4rem;
+ position: absolute;
+ top: 0;
+ color: var(--color);
+ font-weight: 400;
+}
+
+
+.time-name {
+  font-size: 0.8rem;
+  color: var(--color3);
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+
+.color-me {
+  color: var(--color3);
+  font-size: 1rem;
+}
+
+.header-image2 img {
+  width: 70%
+}
+
+.navbar-toggler-icon2 i {
+  color: var(--color2);
+}
+
+/* end nav */
+/* end header */
+
+/* start section 1 */
+.flag h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: var(--color5);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+
+}
+
+.flag .flag-img {
+  text-align: center;
+  margin-bottom: 10rem;
+  width: 100%;
+  height: 200px;
+}
+
+.flag div img{
+  width: 95%;
+  height: 100%;
+}
+/* end section 1 */
+/* start section 2 */
+.bg-section2-comming {
+  background-color: var(--color4);
+  padding: 2rem 0;
+  margin-bottom: 5rem;
+}
+
+.box-soon {
+  text-align: center;
+  background-color: var(--color3);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.bg-section2-comming iframe {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bg-iframe-info {
+  margin: 0 auto;
+  padding: 8px 3px;
+}
+
+.box-soon h6 {
+  text-transform: uppercase;
+  color: var(--color2);
+}
+
+.box-soon p {
+  text-align: center;
+  color: var(--color5)
+}
+
+/* end section 2  */
+
+/* this is section 3 */
+
+.about-me-adress {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.about-me-adress h1 {
+color: #EDEFF0;
+font-size: 9rem;
+text-transform: uppercase;
+font-family: "poppins" , sans-serif;
+width: 100%;
+text-align: center;
+}
+
+.about-me-adress h2 {
+position: absolute;
+top: 4rem;
+z-index: 3;
+text-transform: capitalize;
+font-family: "poppins" , sans-serif;
+font-size: 2.5rem;
+font-weight: bolder;
+color: #212529;
+}
+
+.line-before{
+  width: 10rem;
+  height: 2px;
+  background-color: var(--color2);
+  display: block;
+  margin: auto;
+}
+
+.spices {
+  font-family: var(--font);
+  text-transform: capitalize;
+  padding: 8px;
+}
+
+.spices p {
+  background-color: #F0F0F0;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* ens secttion 3 */
+/* start section 4 */
+
+.flex-this{
+  display: flex
+}
+
+.bg-section4-1 {
+   background-color: var(--color4);
+   height: 350PX;
+   width: 50%;
+}
+
+.bg-section4-2{
+   background-color: var(--color2);
+   height: 350PX;
+   width: 50%
+}
+
+.top-imgs {
+  transform: translatey(-80%);
+  text-align: center;
+}
+
+.top-imgs img {
+  width: 90%;
+  margin-bottom: 1rem;
+}
+/* end section 4 */
+
+/* this is section 5 */
+
+.top-subscribe {
+  background-color: var(--color4);
+  border-radius: 15px;
+}
+
+.sub-img {
+  transform: translatey(-20%);
+  padding-left: 4rem;
+}
+
+.sub-img img{
+ width: 100%;
+}
+
+.bottom-sub {
+  align-items: flex-end;
+  height: 100%;
+  padding: 0 0 6rem 0;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none
+}
+
+.bottom-sub input {
+  text-transform: uppercase;
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.bottom-sub button {
+  background-color: var(--color2);
+  color: var(--color3);
+  padding: 8px 25px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+
+/* end section 5 */
+
+/* start footer */
+footer {
+  background-color: var(--color2);
+  padding: 5rem 0;
+  color: var(--color3);
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+footer a {
+  color: var(--color3)
+}
+
+footer a:hover {
+  color: var(--color3)
+}
+
+footer ul {
+  list-style: none;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11 end comming son !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11*/
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! login page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111*/
+
+/* this is header */
+.bg-login {
+  background-color: transparent;
+  height: auto;
+}
+
+/* this is main section in login */
+.main-bg-login {
+  background-color: #F0F2F5;
+  padding: 8rem;
+  font-family: var(--font);
+  font-size: 1rem;
+}
+
+.bg-login-2 {
+  background-color: var(--color3);
+  box-shadow: 10px 10px 5px 0px rgba(221,221,221,1);
+}
+
+.main-bg-login h1,
+.main-bg-login h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.792);
+}
+
+
+.span-form {
+  width: 0.8rem;
+  background-color: var(--yellow);
+  height: 3.6rem;
+  position: absolute;
+}
+
+.login-form:focus,
+.login-form2:focus {
+  border-color: var(--yellow) ;
+}
+
+.form-login-color {
+  color: rgba(128, 128, 128, 0.784);
+  font-size: 0.8rem;
+}
+
+.form-login-color:hover {
+  color: var(--color2)
+}
+
+.login-btn {
+  background-color: var(--comenig-color);
+  color: var(--color3)
+}
+
+.login-btn:hover {
+  background-color: var(--color2);
+  color: var(--color3)
+}
+
+.sign-btn {
+  background-color: var(--color2);
+  color: var(--color3)
+}
+
+.sign-btn:hover {
+  background-color: var(--comenig-color);
+  color: var(--color3)
+}
+
+.or-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.784);
+}
+
+.another-way-to-login .span2 {
+  color: rgba(128, 128, 128, 0.784);
+  font-size: 0.9rem;
+}
+
+.another-way-to-login .border-link {
+  border: 2px solid #1369FA;
+  border-radius: 50%;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.another-way-to-login .border-link img {
+  height: 100%;
+}
+
+.another-way-to-login .border-link2 {
+  border: 2px solid #FB0072;
+  border-radius: 50%;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!1 end login page !!!!!!!!!!!!!!!!!!!!!!!!!!111*/
+/* !!!!!!!!!!!!!!!!!!!!!1 start sign up page  !!!!!!!!!!!!!!!!!!!!1*/
+
+.bg-form-end {
+  background-image: url('../img/Group\ 19310.png');
+  width: 100%;
+  height: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.register {
+  background-color: var(--yellow);
+  color: var(--color3);
+  font-size: 1.3rem;
+}
+
+.form-register div input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 1rem;
+  padding-left: 45px;
+  background-color: transparent;
+}
+
+.form-register div select {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 1rem;
+    padding-left: 45px;
+    background-color: transparent;
+}
+
+
+.sign-form {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color);
+  border-radius: 50%;
+  text-align: center;
+  padding: 3px 0 0 0;
+  top: 1rem
+}
+
+.sign-form i{
+  color: var(--color3);
+  display: inline-block;
+  font-size: 1rem;
+
+}
+
+.register-btttn {
+  color: var(--color3);
+  background-color: var(--color2);
+  border-radius: 20px;
+  padding: 12px 30px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!! end sign up  !!!!!!!!!!!!!!!!!!!!!!1*/
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!! this is stores page  !!!!!!!!!!!!!!!!!*/
+
+.stores-header {
+  height: 60vh;
+}
+
+.stores-info {
+  padding-top: 4rem;
+}
+
+.stores-img {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.stores-img img{
+  width: 100%;
+}
+
+.adress-reco {
+  color: var(--black)
+}
+
+.line-reco {
+  height: 2px;
+  width: 80px;
+  background-color: var(--yellow);
+  margin-left: 1rem;
+}
+
+.recomended {
+  border: 2px solid rgba(221, 221, 221, 0.6);
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.bg-category {
+  background-color: #EEF5FF;
+  width: 28%;
+  padding: 20px 0;
+
+}
+
+.bg-category i {
+   color: var(--color);
+   font-size: 1.5rem;
+}
+
+.items-color {
+  color: rgb(121, 121, 121)
+}
+
+.color-items {
+  color: var(--color2);
+  font-weight: bolder;
+}
+/* end section 1 */
+/* this is filter */
+
+.bg-ssstores {
+    background-color: #adc6ff71;
+    padding: 3rem 0;
+    margin-top: 6rem;
+}
+
+.stor-btnnn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+    color: var(--color2);
+}
+
+input[placeholder] {
+    text-transform: capitalize;
+}
+
+select option {
+    text-transform: capitalize;
+    color: var(--color5);
+}
+
+.submit-label {
+    color: transparent;
+}
+
+.submitt-stores {
+    background-color: var(--color2);
+    color: var(--color3);
+    text-transform: uppercase;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+
+/* start section 2 */
+.cont-width {
+    width: 70%;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.cate-box {
+    border: 2px solid rgba(221, 221, 221, 0.6);
+    border-radius: 25px;
+    background-color: var(--color3);
+}
+
+.img-cate-box {
+    width: 100%;
+    height:184px;
+}
+
+.img-cate-box img ,
+.img-2-cate-box img {
+    width: 100%;
+
+}
+
+.img-2-cate-box {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transform: translatey(-60px);
+}
+
+.img-2-cate-box img {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.top-cate {
+    transform: translatey(-40px);
+}
+
+.color-cate {
+    color: var(--color2);
+    text-transform: uppercase;
+}
+
+.add-fav {
+    color: var(--color3);
+    background-color: var(--color);
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+/*!!!!!!!!!!!!!!!!!!!11 end stores page !!!!!!!!!!!!!!!!!!!!11*/
+/*!!!!!!!!!!!!!!!!!!! this is class a  !!!!!!!!!!!!!!!!!!!!!!!*/
+
+.navbar {
+  position: relative;
+  z-index: 54361321;
+}
+/* start section 1 */
+.bg-company {
+  position: relative;
+  height: 100vh;
+  margin-bottom: 7rem;
+}
+
+
+.bg-img-2 ,
+.bg-img-3 ,
+.company-info {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+.bg-img-2 {
+  z-index: 2;
+}
+
+.bg-img-3 {
+  z-index: 3;
+}
+
+.company-info {
+  z-index: 4;
+  width: 100%;
+  color: var(--color3);
+  font-family: var(--font);
+  transform: translatey(-3%);
+
+}
+
+.company-info h1 {
+  font-weight: bolder;
+}
+
+.company-info p {
+  font-size: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+
+.bg-company-mob {
+  display: none;
+  margin-bottom: 4rem;
+}
+
+.info-mob {
+  display: none;
+}
+/* end section 1 */
+
+/* start section 2 */
+
+.class-a {
+  width: 70%;
+  margin: auto;
+}
+
+.bg-box-company {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 145px;
+  height: 145px;
+  padding: 15px;
+  margin: auto;
+}
+
+.bg-box-company2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #9CBCF1;
+  border-right: 4px solid #6767F7;
+}
+
+.bg-box-company2 img {
+  width: 50%;
+}
+
+.p-sstyle {
+  color: var(--color5);
+  font-size: 0.9rem;
+}
+/* end section 2 */
+
+/* start section 3 */
+.bg-why-uss {
+  background-color: #6464F0;
+  border-radius: 110px;
+}
+
+.box-company33 {
+  color: var(--color3);
+}
+
+.box-company33 img {
+  width: 40%;
+}
+
+.box-company33 p {
+  font-size: 0.8rem;
+}
+
+/* end section  3*/
+
+/* start section 4 */
+
+.top-contaaainer {
+  margin: 9rem auto 2rem auto;
+}
+.vedio-box iframe {
+  border-radius: 15px;
+}
+
+.title-vedio {
+  background-color: #fff;
+  width: 50%;
+  margin: auto;
+  transform: translateY(-50%);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.red-p {
+  text-transform: uppercase;
+  color: red;
+  line-height: 4px;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+/* end section 4 */
+
+/* start section 5 */
+.proudact-box2 {
+  border: 1px solid #A4A4F6;
+  border-bottom: 3px solid #A4A4F6;
+  background-color: var(--color3);
+    height: 220px;
+
+}
+/* end section 5 */
+
+/* start section 6 */
+ .back-img {
+  background: linear-gradient(rgba(8, 8, 8, 0.582),rgba(8, 8, 8,  0.582)),url('../img/Rectangle.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin: 5rem 0;
+ }
+
+ .back-img p {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+ }
+
+ .back-img a {
+  border: 1px solid var(--color3);
+  padding: 0.8rem;
+  text-transform: uppercase;
+  color: var(--color3)
+ }
+
+ .back-img a:hover {
+  border: 1px solid var(--color2);
+  color: var(--color2)
+ }
+/* end section 6 */
+
+/* start section 7 */
+.more-proudact {
+  background-color: var(--color3);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! this is media query !!!!!!!!!!!!!!!!!!!!!!!!!!!!************/
+
+/**** Mobile ****/
+@media (max-width: 767px) {
+/* @media (max-width: 576px) { */
+ /*!!!!!!!!!!!!!!!!!!!!!!!! landing page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  /* this is header */
+  /* this is nav bar */
+
+  header {
+    height: 100vh;
+  }
+
+
+  .navbar-brand img {
+    width: 80px;
+  }
+
+  .navbar-nav {
+    background-color: var(--color3);
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin-left: 0
+  }
+
+  .animation::after {
+    content: none;
+  }
+
+  .nav-link {
+    color: #000;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+    margin: 5px;
+
+  }
+
+  .nav-link:hover {
+    color: var(--color2)
+  }
+
+  .border-none {
+    border-bottom: none;
+  }
+
+  /* end nav bar */
+
+  /* start header content */
+  .header-info {
+    transform: translatey(0);
+  }
+
+  .row-rev {
+    flex-direction: column-reverse
+  }
+
+  .header-text {
+    transform: translatey(0) !important;
+  }
+  .header-text p {
+    line-height: 14px;
+    font-size: 0.6rem !important;
+  }
+
+  .header-text button {
+    color: var(--color3);
+    background-color: var(--color2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.5rem !important;
+    /* padding: 5px; */
+  }
+
+  .header-text button:hover {
+    color: var(--color3);
+    animation: none;
+
+  }
+
+  .header-image img {
+    width: 50%
+  }
+
+  /* end header content */
+  /* end header */
+
+  /* start section 2 */
+
+  .make-padding {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .par-adress {
+    font-size: 2rem !important;
+  }
+
+  .par-adress2 {
+    top: 0.5rem !important
+  }
+
+  /* end section 2 */
+
+  /* start section 3 */
+  .box {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+  }
+
+  .box h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+  }
+
+  .box p {
+    font-size: 0.8rem;
+  }
+  /* end section 3 */
+
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! comming soon page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+  .header-bg {
+    background-color: var(--comenig-color) !important;
+    height: 100vh;
+  }
+
+  .nav-link2 {
+    color: var(--color5);
+    font-weight: 300;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+    margin: 5px;
+
+  }
+
+  .last-li-img{
+    margin: 1rem auto 0 auto;
+  }
+
+  .bg1 {
+    width: 20px;
+    height: 40px;
+    margin-right: 2px;
+ }
+
+ .bg2{
+   border-bottom: 1px solid var(--color);
+   height: 19px;
+   margin-bottom: 1px;
+ }
+
+ .bg3{
+   height: 19px;
+ }
+
+ .layer-dott {
+   width: 20px;
+   height: 40px;
+   font-size: 2rem;
+ }
+
+ .timelayer {
+  width: 20px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  top: 4px;
+  color: var(--color);
+  font-weight: 400;
+ }
+
+
+ .time-name {
+   font-size: 0.8rem;
+   color: var(--color3);
+   letter-spacing: 2px;
+   margin-top: 1rem;
+   text-transform: capitalize;
+ }
+
+ .top-content {
+  transform: translatey(-20px);
+ }
+
+ .who-we-are{
+  font-size: 1rem;
+ }
+
+.color-me {
+  color: var(--color3);
+  font-size: 0.8rem;
+  height: 80px;
+  overflow: hidden;
+  margin-top: -1rem;
+}
+
+.header-image2 img {
+  width: 50%
+}
+
+/* this is section 1 */
+
+.flag h2 {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+/* end section 1 */
+/* this is section 3 */
+.about-me-adress h1 {
+  font-size: 3rem;
+}
+
+.about-me-adress h2 {
+  top: 1rem;
+  z-index: 3;
+  font-size: 1rem !important;
+}
+
+  /* end section 3 */
+  /* this issection 4 */
+
+  .flex-this{
+    display: none
+  }
+
+  .bg-section4-1 {
+    width: 100%;
+  }
+
+  .bg-section4-2 {
+    width: 100%;
+  }
+
+  .top-imgs {
+    transform: translatey(0);
+  }
+
+  /* this is section 5 */
+
+
+  .top-subscribe {
+   margin: 8rem 1rem 5rem 1rem;
+
+  }
+
+  .bottom-sub  {
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .bottom-sub input {
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .bottom-sub button {
+    padding: 5px 7px;
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  /* this is footer */
+  footer ul {
+    margin-bottom: 3rem;
+  }
+
+  .left-ul {
+    transform: translatex(-1.2rem);
+  }
+
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11 end comming soon page !!!!!!!!!!!!!!!!!11*/
+  /* !!!!!!!!!!!!!!!!!!11 start login page !!!!!!!!!!!!!!!!!!!!!!!1*/
+
+  /* this is main section in login */
+.main-bg-login {
+  padding: 0rem;
+}
+
+ /* !!!!!!!!!!!!!!! start stores page !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+ .stores-info {
+  padding-top: 3.3rem;
+}
+
+.stores-img {
+  margin-top: 0rem;
+}
+
+.img-2-cate-box {
+  width: 90px;
+  height: 90px;
+  transform: translatey(-45px);
+}
+/*!!!!!!!! end login page !!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!11 this is class a !!!!!!!!!!*/
+.bg-company {
+  display: none;
+}
+
+.bg-company-mob {
+  display: block;
+  background: linear-gradient(rgba(0, 8, 255, 0.151),rgba(0, 8, 255, 0.151)),url('../img/clasificacion-de-empresas-wide.jpg') ;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.info-mob {
+  display: block;
+  color: #fff;
+}
+
+
+
+}
+
+
+/**** Small Screens tablet ****/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!! landing page !!!!!!!!!!!!!!!!!!!!!!!!!11!!!! */
+/* this is header */
+.header {
+  height: 80vh;
+}
+
+ /* this is nav bar */
+.navbar-brand img {
+  width: 80px;
+}
+
+.navbar-nav {
+  background-color: var(--color3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.nav-item {
+  margin-left: 0
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  margin: 5px;
+
+}
+
+.border-none {
+  border-bottom: none;
+}
+
+/* end nav bar */
+
+/* start header content */
+
+.header-info {
+  transform: translatey(0);
+}
+
+.header-text {
+  transform: translatey(0);
+}
+
+.header-text p {
+  line-height: 20px;
+  font-size: 1rem;
+  margin-top: 0.5rem !important;
+}
+
+.header-text button {
+  color: var(--color3);
+  background-color: var(--color2);
+  margin-top: -0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.5rem;
+}
+
+/* end header content */
+
+/* start section 3 */
+
+.title {
+  width: 100%;
+  margin-top: 3rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.title::after {
+
+  width: 20%;
+  left: 40%
+
+}
+
+.box {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+}
+
+.box h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
+.box p {
+  font-size: 0.8rem;
+}
+/* end section 3 */
+
+/* !!!!!!!!!!!!!!!!!!!! comming soon page !!!!!!!!!! */
+/* this is header */
+.header-bg {
+
+  height: 75vh;
+}
+/* this is nav */
+.last-li-img{
+  margin: 1rem auto 0 auto;
+}
+/* end nav */
+
+.bg1 {
+  width: 20px;
+  height: 40px;
+  margin-right: 2px;
+}
+
+.bg2{
+ border-bottom: 1px solid var(--color);
+ height: 19px;
+ margin-bottom: 1px;
+}
+
+.bg3{
+ height: 19px;
+}
+
+.layer-dott {
+ width: 20px;
+ height: 40px;
+ font-size: 2rem;
+}
+
+.timelayer {
+width: 20px;
+height: 40px;
+text-align: center;
+font-size: 1.5rem;
+top: 4px;
+color: var(--color);
+font-weight: 400;
+}
+
+
+.time-name {
+ font-size: 0.8rem;
+ color: var(--color3);
+ letter-spacing: 2px;
+ margin-top: 1rem;
+ text-transform: capitalize;
+}
+
+.top-content {
+transform: translatey(-20px);
+}
+
+.who-we-are{
+font-size: 1rem;
+}
+
+.color-me {
+color: var(--color3);
+font-size: 0.8rem;
+height: 80px;
+overflow: hidden;
+margin-top: -1rem;
+}
+
+.header-image2 img {
+width: 50%
+}
+
+/* end header*/
+/* this is section 1 */
+
+.flag h2 {
+  font-size: 0.1rem;
+}
+/* end section 1 */
+
+/* this is section 3 */
+.about-me-adress h1 {
+  font-size: 5rem !important
+  }
+
+  .about-me-adress h2 {
+    font-size: 2rem;
+    top: 2rem;
+  }
+
+  /* end section 3 */
+  /* this is section 4 */
+
+  .bg-section4-1 {
+    height: 200PX;
+ }
+
+ .bg-section4-2{
+  height: 200PX;
+ }
+  /* end section 4 */
+    /* this is section 5 */
+    .bottom-sub {
+     padding: 1rem 0 1rem 0;
+    }
+    /* end section 5 */
+    /* this is footer */
+    footer ul {
+      margin-bottom: 5rem;
+    }
+
+    /*!!!!!!!!!!!!!!!!!!!!! this is stores page !!!!!!!!!!!!!!!!!!!!!!!!1 */
+
+    .img-2-cate-box {
+      width: 80px;
+      height: 80px;
+      transform: translatey(-45px);
+    }
+    .add-fav {
+      font-size: 0.7rem;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!11 this is class a !!!!!!!!!!*/
+    .bg-company {
+      margin-bottom: 0 !important;
+    }
+.company-info {
+  z-index: 4;
+  width: 100%;
+  color: var(--color3);
+  font-family: var(--font);
+  transform: translatey(-10%)
+
+}
+
+.company-info p {
+  width: 60%;
+}
+
+}
+
+/**** Medium Screens ****/
+
+@media (min-width: 992px) {
+
+/* this is header */
+.header {
+  height: 80vh;
+}
+
+/* start header content */
+
+.header-info {
+  top: 40%
+}
+
+.header-text p {
+  line-height: 20px;
+  font-size: 1rem;
+  margin-top: 0.5rem !important;
+}
+
+.header-text button {
+
+  margin-top: -0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.header-image img {
+  width: 75%
+}
+
+/* end header content */
+/* end header */
+
+/* start section 1 */
+
+.title {
+  width: 100%;
+  margin-top: 3rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.title::after {
+
+  width: 15%;
+  left: 42.5%
+
+}
+
+.box {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+}
+
+.box h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
+.box p {
+  font-size: 0.8rem;
+}
+/* end section 1 */
+/* !!!!!!!!!!!!!!!!!!!!!!!!! this is stores page  !!!!!!!!!!*/
+.stores-info {
+  padding-top: 2rem;
+}
+
+.stores-img {
+  margin-top: 0rem;
+}
+
+
+}
+
+  /**** Large Screens ****/
+
+@media (min-width: 1200px) {
+
+  /* start section 1 */
+  .title {
+    text-align: center;
+    color: var(--color);
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+  }
+
+  .title::after {
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: var(--color2);
+    position: absolute;
+    top: 2.5rem;
+    left: 10%
+  }
+
+  .box {
+    text-align: center;
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .box h4 {
+    color: var(--color4);
+    font-family: var(--font2);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+
+  }
+
+  .box p {
+    font-size: 0.8rem;
+  }
+  /* end section 1 */
+  .company-box  {
+    margin-top: 1rem;
+  }
+}
+
+/**** Custom ****/
+
+@media (max-width: 1199px) {
+  /* start header content */
+
+.header-info {
+  top: 40%
+}
+
+.header-text p {
+  line-height: 20px;
+  font-size: 1rem;
+  margin-top: 0.5rem !important;
+}
+
+.header-text button {
+
+  margin-top: -0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.header-image img {
+  width: 75%
+}
+
+/* end header content */
+}
+
+@media(min-width: 1400px) {
+    .bg-company {
+      display: none;
+    }
+
+    .bg-company-mob {
+      display: block;
+      background: linear-gradient(rgba(0, 8, 255, 0.151),rgba(0, 8, 255, 0.151)),url('../img/clasificacion-de-empresas-wide.jpg') ;
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: block;
+      color: var(--color3)
+    }
+
+    .info-mob {
+      display: block;
+    }
+ }
+

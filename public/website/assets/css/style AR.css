@@ -1,0 +1,14 @@
+:root {
+  font-size: 16px;
+  --font: 'Aref Ruqaa Ink', serif;
+  --color: rgb(226, 221, 221);
+  --color2: rgb(253, 238, 108);
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* this is header */
